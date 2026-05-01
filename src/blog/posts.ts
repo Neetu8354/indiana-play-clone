@@ -45,7 +45,7 @@ If you have ever tried to register on a foreign betting site, you already know t
 
 This guide walks you through the exact steps, what to expect, what NOT to do, and how to claim the welcome bonus most players miss.
 
-## Step 1 — Open WhatsApp from yolo365bookmaker.live
+## Step 1 — Open WhatsApp from yolo365books.live
 
 On the [YOLO365 homepage](/), tap any of the gold "Get ID" buttons. The button uses a deep link (wa.link) that opens WhatsApp with our verified support number pre-loaded. You do not need to save any number to your phone book.
 

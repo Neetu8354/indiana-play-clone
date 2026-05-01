@@ -8,7 +8,7 @@ const Cricket = () => (
     keywords="online cricket betting India, IPL 2026 betting, live cricket betting site, cricket betting ID WhatsApp, T20 World Cup odds, cricket exchange India"
     h1="Online Cricket Betting on YOLO365"
     intro="YOLO365 is India's #1 online cricket betting exchange. Bet live on IPL 2026, T20 World Cup, BBL, PSL, and every international series — with the sharpest odds, in-play markets every ball, and a verified cricket betting ID delivered on WhatsApp in 60 seconds."
-    imageAlt="Online cricket betting on yolo365bookmaker.live with IPL 2026 live odds"
+    imageAlt="Online cricket betting on yolo365books.live with IPL 2026 live odds"
     highlights={[
       { title: "Best IPL 2026 odds", desc: "Match-winner, top batsman, top bowler, over/under, and 50+ in-play markets every over." },
       { title: "Live in-play betting", desc: "Bet ball-by-ball with real-time odds across every major T20, ODI, and Test match." },

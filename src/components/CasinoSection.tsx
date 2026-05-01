@@ -7,12 +7,12 @@ import dragontiger from "@/assets/casino-dragontiger.jpg";
 import { openWhatsApp } from "@/lib/wa";
 
 const games = [
-  { img: teenpatti, name: "Teen Patti", alt: "Play Teen Patti online real money live on yolo365bookmaker.live", tag: "Indian classic", min: "₹100" },
-  { img: andarbahar, name: "Andar Bahar", alt: "Andar Bahar online live casino with Indian dealers on yolo365bookmaker.live", tag: "Live dealer", min: "₹50" },
-  { img: roulette, name: "Roulette", alt: "Live European roulette online real money on yolo365bookmaker.live", tag: "European · Auto", min: "₹100" },
-  { img: dragontiger, name: "Dragon Tiger", alt: "Dragon Tiger live casino card game on yolo365bookmaker.live", tag: "Quick cards", min: "₹50" },
-  { img: blackjack, name: "Blackjack", alt: "Live blackjack 21 online real money tables on yolo365bookmaker.live", tag: "21 live tables", min: "₹200" },
-  { img: slots, name: "Lucky 777 Slots", alt: "1000+ online slots — Lucky 777 jackpot games on yolo365bookmaker.live", tag: "1,000+ slots", min: "₹10" },
+  { img: teenpatti, name: "Teen Patti", alt: "Play Teen Patti online real money live on yolo365books.live", tag: "Indian classic", min: "₹100" },
+  { img: andarbahar, name: "Andar Bahar", alt: "Andar Bahar online live casino with Indian dealers on yolo365books.live", tag: "Live dealer", min: "₹50" },
+  { img: roulette, name: "Roulette", alt: "Live European roulette online real money on yolo365books.live", tag: "European · Auto", min: "₹100" },
+  { img: dragontiger, name: "Dragon Tiger", alt: "Dragon Tiger live casino card game on yolo365books.live", tag: "Quick cards", min: "₹50" },
+  { img: blackjack, name: "Blackjack", alt: "Live blackjack 21 online real money tables on yolo365books.live", tag: "21 live tables", min: "₹200" },
+  { img: slots, name: "Lucky 777 Slots", alt: "1000+ online slots — Lucky 777 jackpot games on yolo365books.live", tag: "1,000+ slots", min: "₹10" },
 ];
 
 const CasinoSection = () => (
