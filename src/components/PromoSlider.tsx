@@ -6,9 +6,9 @@ import { openWhatsApp } from "@/lib/wa";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
-  { img: promoIpl, alt: "IPL 2026 cricket betting bonus on yolo365bookmaker.live — match-day mega offer", eyebrow: "IPL 2026", title: "Match-day mega bonus", sub: "Bet ₹1,000 and receive an additional ₹2,000 in bonus credits.", cta: "Claim offer" },
-  { img: promoWelcome, alt: "200% welcome bonus for new players on yolo365bookmaker.live cricket betting site", eyebrow: "New players", title: "200% welcome bonus", sub: "Up to ₹15,000 matched on your first deposit. T&Cs apply.", cta: "Get bonus" },
-  { img: promoCasino, alt: "VIP live casino tables — Teen Patti, Andar Bahar, Roulette on yolo365bookmaker.live", eyebrow: "Live casino", title: "VIP table access", sub: "Teen Patti, Andar Bahar and Roulette with dedicated dealers.", cta: "Play live" },
+  { img: promoIpl, alt: "IPL 2026 cricket betting bonus on yolo365books.live — match-day mega offer", eyebrow: "IPL 2026", title: "Match-day mega bonus", sub: "Bet ₹1,000 and receive an additional ₹2,000 in bonus credits.", cta: "Claim offer" },
+  { img: promoWelcome, alt: "200% welcome bonus for new players on yolo365books.live cricket betting site", eyebrow: "New players", title: "200% welcome bonus", sub: "Up to ₹15,000 matched on your first deposit. T&Cs apply.", cta: "Get bonus" },
+  { img: promoCasino, alt: "VIP live casino tables — Teen Patti, Andar Bahar, Roulette on yolo365books.live", eyebrow: "Live casino", title: "VIP table access", sub: "Teen Patti, Andar Bahar and Roulette with dedicated dealers.", cta: "Play live" },
 ];
 
 const PromoSlider = () => {

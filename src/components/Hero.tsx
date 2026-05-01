@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="relative h-[70vh] min-h-[460px] max-h-[780px] sm:h-[75vh] md:h-[78vh]">
         <img
           src={heroImg}
-          alt="Live online cricket betting on yolo365bookmaker.live — IPL 2026, T20 and ODI matches"
+          alt="Live online cricket betting on yolo365books.live — IPL 2026, T20 and ODI matches"
           className="absolute inset-0 w-full h-full object-cover"
           width={1920}
           height={900}

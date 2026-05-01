@@ -4,7 +4,7 @@ import SEO from "@/components/SEO";
 import { openWhatsApp } from "@/lib/wa";
 import { ShieldCheck, Award, Users, Zap, Lock, HeartHandshake } from "lucide-react";
 
-const SITE = "https://yolo365bookmaker.live";
+const SITE = "https://yolo365books.live";
 
 const About = () => {
   const ld = [

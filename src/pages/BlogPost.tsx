@@ -7,7 +7,7 @@ import { posts } from "@/blog/posts";
 import { Calendar, Clock, ArrowLeft, MessageCircle } from "lucide-react";
 import { openWhatsApp } from "@/lib/wa";
 
-const SITE = "https://yolo365bookmaker.live";
+const SITE = "https://yolo365books.live";
 
 // Lightweight markdown-ish renderer (## heading, paragraphs, - list, [text](url))
 const renderContent = (md: string) => {
@@ -163,7 +163,7 @@ const BlogPost = () => {
           </header>
 
           <figure className="rounded-lg overflow-hidden border hairline mb-10">
-            <img src={post.cover} alt={`${post.title} — yolo365bookmaker.live blog cover`} className="w-full h-auto" width={1200} height={675} loading="eager" decoding="async" />
+            <img src={post.cover} alt={`${post.title} — yolo365books.live blog cover`} className="w-full h-auto" width={1200} height={675} loading="eager" decoding="async" />
           </figure>
 
           <div className="text-base">{renderContent(post.content)}</div>

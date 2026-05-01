@@ -12,7 +12,7 @@ type Props = {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 };
 
-const SITE = "https://yolo365bookmaker.live";
+const SITE = "https://yolo365books.live";
 
 const SEO = ({ title, description, canonical, image = `${SITE}/og-image.jpg`, type = "website", publishedTime, modifiedTime, keywords, jsonLd }: Props) => {
   const url = canonical.startsWith("http") ? canonical : `${SITE}${canonical}`;
