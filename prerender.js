@@ -21,7 +21,9 @@ const routes = [
       { q: "How long do YOLO365 withdrawals take?", a: "Most withdrawals are processed within 5 minutes directly to your Indian bank account, with no hidden fees." },
       { q: "Can I bet on IPL 2026 on YOLO365?", a: "Yes. YOLO365 covers every IPL 2026 match, international cricket (T20, ODI, Test), domestic leagues and women's cricket — with the sharpest odds in India." },
       { q: "Does YOLO365 have live casino games?", a: "YOLO365 offers live Teen Patti, Andar Bahar, Roulette, Dragon Tiger, Blackjack, Baccarat and 1,000+ slot games with real dealers from Evolution, Ezugi and Pragmatic Play." }
-    ]
+    ],
+    noscriptH1: "YOLO365 — India's #1 Online Cricket Betting ID & Live Casino",
+    noscriptP: "YOLO365 is India's trusted online cricket betting exchange. Get your IPL betting ID on WhatsApp in 60 seconds. Bet on IPL 2026, T20, ODI, Test cricket, kabaddi, tennis and live casino with instant INR deposits."
   },
   { 
     path: '/about', 
@@ -33,7 +35,9 @@ const routes = [
       { q: "Is YOLO365 licensed and regulated?", a: "Yes. YOLO365 operates under international gaming licenses with full KYC compliance and bank-grade SSL security." },
       { q: "How many users does YOLO365 have?", a: "YOLO365 has over 5 lakh+ active users and is one of India's fastest-growing cricket betting communities." },
       { q: "What payment methods does YOLO365 accept?", a: "YOLO365 accepts UPI, PhonePe, GPay, Paytm, IMPS, and net banking with instant credit and 5-minute withdrawals." }
-    ]
+    ],
+    noscriptH1: "About YOLO365 — India's Trusted Cricket Betting ID & Live Casino Site",
+    noscriptP: "Learn about YOLO365 — India's most trusted online cricket betting exchange since 2021. 5 lakh+ users, instant UPI deposits, 5-minute withdrawals, licensed & regulated."
   },
   { 
     path: '/contact', 
@@ -45,7 +49,9 @@ const routes = [
       { q: "What is YOLO365 email support?", a: "You can email us at support@yolo365.live for non-urgent inquiries. WhatsApp is recommended for fastest response." },
       { q: "Is YOLO365 support available 24/7?", a: "Yes. YOLO365 customer support is available 24×7, 365 days a year via WhatsApp." },
       { q: "What languages does YOLO365 support?", a: "YOLO365 provides customer support in both English and Hindi for Indian users." }
-    ]
+    ],
+    noscriptH1: "Contact YOLO365 — 24×7 WhatsApp Support for Cricket Betting ID",
+    noscriptP: "Contact YOLO365 customer support 24×7 on WhatsApp for cricket betting ID, deposit, withdrawal, or live casino help. Hindi & English support."
   },
   { 
     path: '/blog', 
@@ -57,7 +63,9 @@ const routes = [
       { q: "How often is the YOLO365 blog updated?", a: "We publish new articles every week during cricket seasons and major tournaments like IPL and T20 World Cup." },
       { q: "Are the betting tips on YOLO365 blog free?", a: "Yes. All our IPL betting tips, cricket strategies, and casino guides are completely free for all users." },
       { q: "Can I request specific betting topics?", a: "Yes. Message us on WhatsApp with topic suggestions and we'll cover them in upcoming blog posts." }
-    ]
+    ],
+    noscriptH1: "YOLO365 Blog — IPL Betting Tips, Cricket Strategy & Live Casino Guides 2026",
+    noscriptP: "Expert IPL 2026 betting tips, cricket strategy, Teen Patti & live casino guides from YOLO365 — India's #1 cricket betting exchange. New articles every week."
   },
   { 
     path: '/games/cricket-betting', 
@@ -70,7 +78,9 @@ const routes = [
       { q: "What is the minimum bet for cricket?", a: "Start with just ₹100. YOLO365 supports INR-native betting with UPI deposits and accepts both small stakes and high-roller wagers." },
       { q: "Are cricket odds better on YOLO365?", a: "Yes. YOLO365 exchange odds are typically 5-8% sharper than traditional bookmakers, giving you better value on every cricket bet." },
       { q: "Can I bet live during cricket matches?", a: "Absolutely. YOLO365 offers ball-by-ball live betting with real-time odds that update every delivery for T20, ODI, and Test matches." }
-    ]
+    ],
+    noscriptH1: "Online Cricket Betting in India 2026 — IPL, T20 & Test | YOLO365",
+    noscriptP: "Bet on live cricket matches at YOLO365 — IPL 2026, T20 World Cup, BBL, PSL with best odds, in-play markets, instant UPI deposit & 5-minute withdrawal."
   },
   { 
     path: '/games/teen-patti', 
@@ -83,7 +93,9 @@ const routes = [
       { q: "Is Teen Patti online fair?", a: "Yes. YOLO365 uses licensed providers (Evolution, Ezugi) with certified RNG and live dealers. All games are audited for fairness." },
       { q: "What is the minimum bet for Teen Patti?", a: "Start with just ₹100 per hand. YOLO365 supports both small stakes and high-roller tables for Teen Patti." },
       { q: "Can I play Teen Patti on mobile?", a: "Yes. YOLO365 Teen Patti is fully optimized for mobile with smooth gameplay, live dealer video, and instant betting on any device." }
-    ]
+    ],
+    noscriptH1: "Play Teen Patti Online Real Money India — Live Dealer | YOLO365",
+    noscriptP: "Play Teen Patti online for real money at YOLO365 with live dealers, instant withdrawals, and ₹100 minimum bets. Best Teen Patti casino in India."
   },
   { 
     path: '/games/aviator', 
@@ -96,7 +108,9 @@ const routes = [
       { q: "Is Aviator game fair?", a: "Yes. YOLO365 Aviator uses provably fair technology with live statistics showing all crash multipliers and player bets in real-time." },
       { q: "What is the minimum bet for Aviator?", a: "Start with just ₹10 per round. YOLO365 supports both conservative and aggressive betting strategies for Aviator." },
       { q: "Can I play Aviator on mobile?", a: "Yes. YOLO365 Aviator is fully mobile-optimized with smooth gameplay, live statistics, and instant betting on any device." }
-    ]
+    ],
+    noscriptH1: "Play Aviator Game Online India — Real Money Crash Game | YOLO365",
+    noscriptP: "Play Aviator crash game online for real money at YOLO365. Instant withdrawals, live statistics, and ₹100 minimum bets. Best Aviator casino in India."
   },
   { 
     path: '/games/andar-bahar', 
@@ -109,7 +123,9 @@ const routes = [
       { q: "Is Andar Bahar online fair?", a: "Yes. YOLO365 uses licensed providers (Evolution, Ezugi) with live dealers and transparent card drawing. All games are audited for fairness." },
       { q: "What is the minimum bet for Andar Bahar?", a: "Start with just ₹100 per round. YOLO365 supports both small stakes and high-roller tables for Andar Bahar." },
       { q: "Can I play Andar Bahar on mobile?", a: "Yes. YOLO365 Andar Bahar is fully mobile-optimized with live dealer video, smooth betting, and instant gameplay on any device." }
-    ]
+    ],
+    noscriptH1: "Play Andar Bahar Online Real Money India — Live Dealer | YOLO365",
+    noscriptP: "Play Andar Bahar online for real money at YOLO365 with live dealers, instant withdrawals, and ₹100 minimum bets. Best Andar Bahar casino in India."
   },
 ];
 
@@ -151,10 +167,10 @@ function createRouteHTML(route) {
     `<title>${route.title}</title>`
   );
 
-  // Replace meta description
+  // Replace meta description (handle HTML entities - more robust pattern)
   routeHtml = routeHtml.replace(
-    /<meta name="description" content="[^"]*" \/>/,
-    `<meta name="description" content="${route.description}" />`
+    /<meta name="description" content="YOLO365 is India&#39;s most trusted online cricket betting exchange. Get your IPL betting ID on WhatsApp in 60 seconds with instant INR deposits and 5-minute withdrawals. 24\/7 support.">/,
+    `<meta name="description" content="${route.description.replace(/'/g, '&#39;').replace(/"/g, '&quot;')}">`
   );
 
   // Remove duplicate meta tags at the end of the file
@@ -201,6 +217,16 @@ function createRouteHTML(route) {
   routeHtml = routeHtml.replace(
     /<meta name="twitter:description" content="[^"]*" \/>/,
     `<meta name="twitter:description" content="${route.description}" />`
+  );
+
+  // Replace noscript H1
+  routeHtml = routeHtml.replace(
+    /<noscript>[\s\S]*?<\/noscript>/,
+    `<noscript>
+      <h1>${route.noscriptH1}</h1>
+      <p>${route.noscriptP}</p>
+      <p>Visit <a href="${route.canonical}">${route.canonical}</a> or message us on <a href="https://wa.link/yolo365">WhatsApp</a>.</p>
+    </noscript>`
   );
 
   // Update breadcrumb schema to include current page
