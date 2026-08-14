@@ -103,25 +103,47 @@ function createRouteHTML(route) {
     `<meta name="description" content="${route.description}" />`
   );
 
-  // Replace og:title
+  // Remove duplicate meta tags at the end of the file
   routeHtml = routeHtml.replace(
-    /<meta property="og:title" content="[^"]*" \/>/,
-    `<meta property="og:title" content="${route.title}" />`
+    /<meta property="og:title"[^>]*>[\s\S]*?<meta name="twitter:description"[^>]*>/,
+    ''
   );
 
-  // Replace og:description
-  routeHtml = routeHtml.replace(
-    /<meta property="og:description" content="[^"]*" \/>/,
-    `<meta property="og:description" content="${route.description}" />`
-  );
+  // Add og:title after og:site_name if not present
+  if (!routeHtml.includes('<meta property="og:title"')) {
+    routeHtml = routeHtml.replace(
+      /<meta property="og:site_name"[^>]*>/,
+      `$&\n    <meta property="og:title" content="${route.title}" />`
+    );
+  } else {
+    // Replace og:title in Open Graph section
+    routeHtml = routeHtml.replace(
+      /<meta property="og:title" content="[^"]*" \/>/,
+      `<meta property="og:title" content="${route.title}" />`
+    );
+  }
 
-  // Replace twitter:title
+  // Add og:description after og:url if not present
+  if (!routeHtml.includes('<meta property="og:description"')) {
+    routeHtml = routeHtml.replace(
+      /<meta property="og:url"[^>]*>/,
+      `$&\n    <meta property="og:description" content="${route.description}" />`
+    );
+  } else {
+    // Replace og:description in Open Graph section
+    routeHtml = routeHtml.replace(
+      /<meta property="og:description" content="[^"]*" \/>/,
+      `<meta property="og:description" content="${route.description}" />`
+    );
+  }
+
+  // Replace twitter:title in Twitter section
   routeHtml = routeHtml.replace(
     /<meta name="twitter:title" content="[^"]*" \/>/,
     `<meta name="twitter:title" content="${route.title}" />`
   );
 
-  // Replace twitter:description
+  // Replace twitter:description in Twitter section
   routeHtml = routeHtml.replace(
     /<meta name="twitter:description" content="[^"]*" \/>/,
     `<meta name="twitter:description" content="${route.description}" />`
