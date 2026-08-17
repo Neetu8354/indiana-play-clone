@@ -129,8 +129,9 @@ const routes = [
   },
 ];
 
-// Read the main index.html
-const mainIndexPath = path.join(__dirname, 'index.html');
+// Read the Vite-built index.html from dist
+// This ensures the correct asset references (e.g., /assets/index-xxx.js) are preserved
+const mainIndexPath = path.join(__dirname, 'dist', 'index.html');
 let indexHtml = fs.readFileSync(mainIndexPath, 'utf8');
 
 // Function to create HTML file with specific page metadata
